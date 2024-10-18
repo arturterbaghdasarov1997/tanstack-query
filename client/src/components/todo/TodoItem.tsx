@@ -1,5 +1,5 @@
 import React, { MouseEvent } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import useDeleteTodo from '../../hooks/mutations/todo/useDeleteTodo';
 
 interface TodoItemProps {
